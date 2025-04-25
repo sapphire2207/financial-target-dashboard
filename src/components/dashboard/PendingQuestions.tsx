@@ -17,7 +17,7 @@ const PendingQuestions = () => {
 
       <div className="flex flex-col">
         {questions.map((item, index) => (
-          <div key={item.id} className="h-[119.5px] border-b border-[#eaecf0] last:border-b-0">
+          <div key={index} className="h-[119.5px] border-b border-[#eaecf0] last:border-b-0">
             <div className="flex items-center p-4">
               <div className="w-2 h-2 rounded-full bg-[#2fbdff] mr-2"></div>
               <div className="relative mr-3">
