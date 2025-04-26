@@ -14,7 +14,7 @@ const FranchiseesOnboard = () => {
 
   return (
     <div className="bg-white rounded-xl shadow-md p-5 w-full h-[263px] max-w-sm">
-      <h2 className="text-lg font-bold pt-1 mb-1 leading-tight text-gray-900">
+      <h2 className="text-lg font-semibold pt-1 mb-1 leading-tight text-gray-900">
         Total Franchisees Onboard
       </h2>
 
