@@ -14,7 +14,9 @@ const FranchiseesOnboard = () => {
 
   return (
     <div className="bg-white rounded-xl shadow-md p-5 w-full h-[263px] max-w-sm">
-      <h2 className="text-lg font-semibold mb-1 pt-1">Total Franchisees Onboard</h2>
+      <h2 className="text-lg font-bold pt-1 mb-1 leading-tight text-gray-900">
+        Total Franchisees Onboard
+      </h2>
 
       <div className="flex flex-col xl:flex-row xl:items-center xl:justify-between mb-3 pt-1">
         <div className="flex items-center mb-2 xl:mb-0">
